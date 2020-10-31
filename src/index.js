@@ -5,9 +5,9 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 
-import { initAuth } from './auth';
-import history from './history';
-import configureStore from './store';
+import { initAuth } from 'src/state/auth';
+import history from 'src/state/history';
+import configureStore from 'src/state/store';
 import registerServiceWorker from './utils/register-service-worker';
 import App from './views/app';
 

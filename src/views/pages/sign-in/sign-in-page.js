@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { authActions } from 'src/auth';
-import Button from 'src/views/components/button';
+import { authActions } from 'src/state/auth';
+import Button from 'src/components/button';
 
 import './sign-in-page.css';
 

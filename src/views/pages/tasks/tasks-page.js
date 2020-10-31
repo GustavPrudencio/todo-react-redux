@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 
-import { getNotification, notificationActions } from 'src/notification';
-import { getTaskFilter, getVisibleTasks, tasksActions } from 'src/tasks';
-import Notification from '../../components/notification';
-import TaskFilters from '../../components/task-filters';
-import TaskForm from '../../components/task-form';
-import TaskList from '../../components/task-list';
+import { getNotification, notificationActions } from 'src/state/notification';
+import { getTaskFilter, getVisibleTasks, tasksActions } from 'src/state/tasks';
+import Notification from 'src/components/notification';
+import TaskFilters from 'src/components/task-filters';
+import TaskForm from 'src/components/task-form';
+import TaskList from 'src/components/task-list';
 
 
 export class TasksPage extends Component {
